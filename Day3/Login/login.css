@@ -1,0 +1,14 @@
+.container{
+    opacity: .95;
+}
+
+body{
+    background-image: url('https://s3.amazonaws.com/rpower-marketing-assets/Public/rpower-blog-photos/kitchen-display-cooking-min.jpeg') !important;
+    background-size: cover;
+}
+
+#imge
+{
+    display: flex;
+    justify-content: center;
+}
