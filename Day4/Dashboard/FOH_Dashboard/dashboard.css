@@ -1,0 +1,75 @@
+/* AdminDashboard.css */
+
+/* Container */
+.container-fluid {
+    padding: 0;
+    /* height: 100vh; */
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #343a40;
+    color: #fff;
+    height:100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .sidebar ul li {
+    height: 50px;
+    margin-bottom: 20px;
+    border-style: solid;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* text-align: center; */
+    border-radius: 7px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar li:hover{
+      background-color:wheat;
+  }
+
+  .sidebar li:hover a {
+    /* text-decoration: underline; */
+    font-size: x-large;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .full-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width:fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #cfe6ff;
+  }
+  
