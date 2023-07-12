@@ -1,0 +1,15 @@
+.full-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  
+  .outer-home{
+    background-image: url('https://www.wallpapers4u.org/wp-content/uploads/restaurant_table_interior_modern_style_39288_1920x1080.jpg');
+    background-size: cover;
+  }

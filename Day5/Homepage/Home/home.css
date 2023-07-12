@@ -1,0 +1,45 @@
+.home{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text1{
+    font-size:400%;
+    font-weight: bolder;
+    color: gold ;
+    text-shadow:2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #ff0000, -1px -1px #ff0000, 1px -1px #020000, -1px 1px #000000;
+}
+
+#text2{
+    font-size:400%;
+    font-weight: bolder;
+    color: gold ;
+    text-shadow:2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+.text2{
+    /* border: 3px solid rgb(255, 106, 106); */
+    /* background-color:rgb(224, 243, 255,0.4); */
+}
+@media only screen and (max-width: 706px) {
+    #text2{
+        font-size:150%;
+        font-weight: bolder;
+        color: gold ;
+        text-shadow:2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
+        1px 1px #000000, -1px -1px #000000, 1px -1px #fff, -1px 1px #000000;
+    }
+
+    #text1{
+        font-size:200%;
+        font-weight: bolder;
+        color: gold ;
+        text-shadow:2px 0 #000000, -2px 0 #ffffff, 0 2px #000000, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #000000;
+    }
+}
